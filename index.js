@@ -46,6 +46,14 @@ class Person {
     this.age = age;
     this.stomach =[];
   }
+  eat(someFood) {
+    let i =0;
+    for (i=0; i<10; i++) {
+      this.stomach.push(someFood);
+
+
+    }
+  }
 }
 
 /*
@@ -63,6 +71,13 @@ class Person {
 */
 
 class Car {
+  constructor(model, milesPerGallon){
+    this.model = model;
+    this.milesPerGallon = milesPerGallon;
+    this.tank =0;
+    this.odometer =0;
+  }
+
 
 }
 
