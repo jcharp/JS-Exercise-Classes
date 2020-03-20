@@ -214,7 +214,7 @@ constructor(obj1) {
     return `${this.name} announces to ${channel}, @channel sandy times!`;
   }
   debugsCode(student, subject) {
-    return `${this.name} debugs ${this.name}'s code on ${subject}`;
+    return ` ${student} debugs ${this.name}'s code on ${subject}`;
   }
 }
 
