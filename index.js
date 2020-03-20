@@ -114,8 +114,20 @@ class Car {
         + {name} and {location} of course come from the instance's own properties.
 */
 class Lambdasian {
+  constructor(obj1){
+    this.name = obj1.name;
+    this.age = obj1.age;
+    this.location = obj1.location;
+   
 
-}
+    }
+    speak() {
+      return `Hello my name is ${this.name}, i am from ${this.location}`;
+
+    }
+
+  }
+
 
 /*
   TASK 4
