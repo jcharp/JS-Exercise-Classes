@@ -211,11 +211,11 @@ constructor(obj1) {
   this.favInstructor = obj1.favInstructor;
   }
   standUp(channel){
-    return `${this.name} announces to ${channel}, @channel sandy times!`;
-  }
+    return `${this.name} announces to ${channel}, @channel standy times!`;
+  };
   debugsCode(student, subject) {
-    return ` ${student} debugs ${this.name}'s code on ${subject}`;
-  }
+    return ` ${this.name} debugs ${student.name}'s code on ${subject}`
+  };
 }
 
 /*
