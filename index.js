@@ -216,6 +216,9 @@ constructor(obj1) {
   debugsCode(student, subject) {
     return ` ${this.name} debugs ${student.name}'s code on ${subject}`
   };
+  grade(student, subject) {
+    return `${student} receives a perfect score on ${subject}`;
+  }
 }
 
 /*
